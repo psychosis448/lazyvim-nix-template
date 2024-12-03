@@ -64,8 +64,6 @@ return {
   { "windwp/nvim-ts-autotag",                      enabled = false },
 
   -- UI
-  -- nvim-notify
-  { "rcarriga/nvim-notify",                        enabled = false },
   -- bufferline.nvim
   { "akinsho/bufferline.nvim",                     enabled = false },
   -- lualine.nvim
@@ -78,8 +76,8 @@ return {
   { "echasnovski/mini.icons",                      enabled = false },
   -- nui.nvim
   { "MunifTanjim/nui.nvim",                        enabled = false },
-  --dashboard-nvim
-  { "nvimdev/dashboard-nvim",                      enabled = false },
+  -- snacks.nvim
+  { "folke/snacks.nvim",                           enabled = true },
 
   -- UTIL
   -- persistence.nvim
