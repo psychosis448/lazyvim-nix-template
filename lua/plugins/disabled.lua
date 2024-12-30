@@ -1,11 +1,8 @@
 -- NOTE: disabled all LazyVim plugins
 return {
   -- CODING
-  -- nvim-cmp
-  { "hrsh7th/nvim-cmp",                            enabled = false },
-  { "hrsh7th/cmp-nvim-lsp",                        enabled = false },
-  { "hrsh7th/cmp-nvim-buffer",                     enabled = false },
-  { "hrsh7th/cmp-nvim-path",                       enabled = false },
+  -- blink.cmp
+  { "saghen/blink.cmp",                            enabled = false},
   -- nvim-snippets
   { "garymjr/nvim-snippets",                       enabled = false },
   { "rafamadriz/friendly-snippets",                enabled = false },
@@ -17,13 +14,14 @@ return {
   { "mini.ai",                                     enabled = false },
   -- lazydev.nvim
   { "folke/lazydev.nvim",                          enabled = false },
-  { "Bilal2453/luvit-meta",                        enabled = false },
 
   -- COLORSCHEME
   { "folke/tokyonight.nvim",                       enabled = false },
   { "catppuccin/nvim",                             enabled = false },
 
   -- EDITOR
+  -- fzf-lua
+  { "ibhagwan/fzf-lua",                            enabled = false },
   -- neo-tree.nvim
   { "nvim-neo-tree/neo-tree.nvim",                 enabled = false },
   -- grug-far.nvim
@@ -64,22 +62,18 @@ return {
   { "windwp/nvim-ts-autotag",                      enabled = false },
 
   -- UI
-  -- nvim-notify
-  { "rcarriga/nvim-notify",                        enabled = false },
   -- bufferline.nvim
   { "akinsho/bufferline.nvim",                     enabled = false },
   -- lualine.nvim
   { "nvim-lualine/lualine.nvim",                   enabled = false },
-  -- indent-blankline.nvim
-  { "lukas-reineke/indent-blankline.nvim",         enabled = false },
   -- noice.nvim
   { "folke/noice.nvim",                            enabled = false },
   -- mini.icons
   { "echasnovski/mini.icons",                      enabled = false },
   -- nui.nvim
   { "MunifTanjim/nui.nvim",                        enabled = false },
-  --dashboard-nvim
-  { "nvimdev/dashboard-nvim",                      enabled = false },
+  -- snacks.nvim
+  { "snacks.nvim",                                 enabled = false },
 
   -- UTIL
   -- persistence.nvim
