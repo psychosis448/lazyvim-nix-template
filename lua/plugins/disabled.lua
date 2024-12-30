@@ -73,7 +73,7 @@ return {
   -- nui.nvim
   { "MunifTanjim/nui.nvim",                        enabled = false },
   -- snacks.nvim
-  { "snacks.nvim",                                 enabled = false },
+  { "folke/snacks.nvim",                           enabled = true },
 
   -- UTIL
   -- persistence.nvim

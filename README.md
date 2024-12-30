@@ -1,4 +1,4 @@
-#  Nix + 💤 LazyVim
+#  Nix + 💤 LazyVim & 󰢱 Lua
 
 A minimal starter template for [LazyVim](https://github.com/LazyVim/LazyVim)
 on [Nix](https://nixos.org/)
@@ -17,7 +17,7 @@ So you might want to disable unused autocmds/keymaps/options that rely on not in
 
 Please check KFerasoff's guide for more details about the general setup.
 
-## Installing plugins
+## Installing Plugins
 
 As mentioned, we manage the installation of Neovim and its plugins with Nix.
 Let's add and configure a custom colorscheme, e.g. [Modus Themes](https://github.com/miikanissi/modus-themes.nvim).
@@ -43,4 +43,3 @@ To enable [LazyVim Extras](https://www.lazyvim.org/extras), you simply follow th
     `{ import = "lazyvim.plugins.extras.coding.mini-surround" }`
 3. Optional: configure plugin in `./lua/plugins` directory (e.g. `mini-surround.lua`)
 4. Rebuild your configuration
-

@@ -14,8 +14,12 @@
     vimAlias = true;
     vimdiffAlias = true;
     plugins = with pkgs.vimPlugins; [
+      ## lazyvim base
       LazyVim
       lazy-nvim
+
+      ## ui
+      snacks-nvim ## required
 
       ## additional plugins
       modus-themes-nvim
